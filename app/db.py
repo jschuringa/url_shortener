@@ -4,8 +4,6 @@ from sqlalchemy.orm import sessionmaker
 
 from .config import get_config
 
-from . import models
-
 engine = create_engine(
     get_config().db
 )

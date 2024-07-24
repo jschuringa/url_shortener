@@ -28,4 +28,4 @@ Typical venv setup -
 `uvicorn app.main:app --reload`
 
 ## Running tests
-`python -m unittest tests/main_test.py`
+`pytest tests/`
